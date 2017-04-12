@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="swe.practice1104.MainActivity">
+    <item
+        android:id="@+id/opt1"
+        android:orderInCategory="1"
+        android:title="Search"
+        android:icon="@drawable/ic_search_black_24dp"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/opt2"
+        android:orderInCategory="3"
+        android:title="Activate"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/opt3"
+        android:orderInCategory="2"
+        android:title="Destroy"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="4"
+        android:title="Logout"
+        app:showAsAction="never" />
+
+</menu>
